@@ -104,7 +104,7 @@ void yuv2rgb(double y, uint8_t cb, uint8_t cr, uint8_t *r, uint8_t *g, uint8_t *
 }
 
 
-int main (int *argc, char *argv)
+int main(int argc, char **argv)
 {
 	uint8_t rgb_lut[512][3] = {0};
 
